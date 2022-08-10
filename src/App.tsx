@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <p>최지웅</p>
+        <p>jwandroid</p>
       </header>
     </div>
   );
