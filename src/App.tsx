@@ -15,7 +15,7 @@ const StyledText = styled.h1(() => ({
 function App() {
   return (
     <Container>
-      <StyledText>Hello World</StyledText>
+      <StyledText>Hello jw</StyledText>
     </Container>
   );
 }
