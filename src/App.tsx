@@ -1,18 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { memo } from 'react';
+import styled from '@emotion/styled';
+import { Text } from './components';
 
-function App() {
+const Container = styled.div(() => ({
+  width: '100%',
+  height: '100vh',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  backgroundImage:
+    'url(https://images.mypetlife.co.kr/content/uploads/2022/01/17153551/hlh1996-tpFf5y14gBI-unsplash-edited-scaled.jpg)',
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  noRepeat: true,
+  opacity: 0.5,
+}));
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <p>최지웅</p>
-        <p>jwandroid</p>
-      </header>
-    </div>
+    <Container>
+      <Text>Hello Jw</Text>
+    </Container>
   );
-}
+};
 
-export default App;
+export default memo(App);
