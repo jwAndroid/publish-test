@@ -1,6 +1,5 @@
 import { memo } from 'react';
 import styled from '@emotion/styled';
-import { Text } from './components';
 
 const Container = styled.div(() => ({
   flex: 1,
@@ -8,10 +7,15 @@ const Container = styled.div(() => ({
   alignItems: 'center',
 }));
 
+const StyledText = styled.h1(() => ({
+  fontSize: 20,
+  color: 'oreange',
+}));
+
 function App() {
   return (
     <Container>
-      <Text>Hello World</Text>
+      <StyledText>Hello World</StyledText>
     </Container>
   );
 }
