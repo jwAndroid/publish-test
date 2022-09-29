@@ -3,10 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-import { lightTheme } from './theme';
+import { theme } from './theme';
 
 ReactDOM.render(
-  <ThemeProvider theme={lightTheme}>
+  <ThemeProvider theme={theme}>
     <React.StrictMode>
       <App />
     </React.StrictMode>

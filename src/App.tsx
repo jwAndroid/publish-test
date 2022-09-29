@@ -1,20 +1,17 @@
-import { memo } from 'react';
+import React, { memo } from 'react';
 import styled from '@emotion/styled';
+
+import { Header, StyledText } from './components';
 
 const Container = styled.div(() => ({
   flex: 1,
-  justifyContent: 'center',
-  alignItems: 'center',
-}));
-
-const StyledText = styled.h1(() => ({
-  fontSize: 20,
-  color: 'oreange',
 }));
 
 function App() {
   return (
     <Container>
+      <Header />
+
       <StyledText>Hello jw</StyledText>
     </Container>
   );
