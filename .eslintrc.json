@@ -27,6 +27,8 @@
     "import/extensions": "off",
     "no-console": "off",
     "comma-dangle": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "linebreak-style": "off",
+    "react/react-in-jsx-scope": "off"
   }
 }
